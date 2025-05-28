@@ -35,8 +35,6 @@ legend_labels = [
     for label, count in zip(range_counts.index, range_counts)
 ]
 
-avg_price_by_year = df2.groupby('YearBuilt')['SalePrice'].mean()
-
 # Vẽ biểu đồ tròn
 colors = plt.cm.Set3.colors[:len(range_counts)]
 plt.figure(figsize=(10, 6))
