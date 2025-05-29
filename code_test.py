@@ -17,10 +17,9 @@ features = [
 ]
 df = df[features].dropna()
 predicted_prices = model.predict(df)
-
 df['SalePrice'] = predicted_prices
 
-print(df.head())
+print(df)
 
 # Chia giá nhà thành các khoảng
 bins = [0, 100000, 200000, 300000, 400000, 500000, float('inf')]
