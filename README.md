@@ -5,13 +5,21 @@
 [Link video Youtube](https://www.youtube.com/watch?v=n6NADsTUHdM)
 
 Bài tập: Dự báo giá nhà
+
 Đầu bài:
+
 Xây dựng ứng dụng GUI hoặc web dự đoán giá nhà dựa trên các đặc điểm như diện tích, số phòng ngủ, phòng tắm, vị trí và các tiện ích khác.
+
 Đầu vào:
+
 •	[Dữ liệu nhà ở từ House Prices Dataset - Kaggle](https://www.kaggle.com/c/house-prices-advanced-regression-techniques)
+
 Đầu ra:
+
 •	Giá nhà dự đoán, đồ thị phân phối giá nhà theo các yếu tố.
+
 Các tính năng:
+
 •	Xử lý dữ liệu (Pandas)
 •	Dự báo giá nhà (Linear Regression hoặc Random Forest)
 •	Trực quan dữ liệu (Matplotlib/Seaborn)
